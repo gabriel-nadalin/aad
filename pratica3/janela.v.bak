@@ -1,0 +1,15 @@
+module janela(column, row, out);
+    input [9:0] column;
+    input [9:0] row;
+    output reg out;
+
+    always @(column or row) begin
+        if (column > 'd255 && row > 'd127) begin
+            out = 0;
+        end
+        else begin
+            out = 1;
+        end
+    end
+
+endmodule
