@@ -2,9 +2,6 @@ import random
 import sys
 import multiprocessing
 
-total = int(sys.argv[1])
-counter = 0
-
 def get_points(n):
     counter = 0
     for _ in range(n):

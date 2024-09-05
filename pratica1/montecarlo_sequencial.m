@@ -1,7 +1,7 @@
 ﻿counter = 0;
 total = str2num(argv(){1});
 
-for i = 1:1:total
+for i = 0:total
     x = rand();
     y = rand();
     if (x * x + y * y <= 1)

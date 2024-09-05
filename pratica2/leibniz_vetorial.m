@@ -1,14 +1,9 @@
-# Prevent Octave from thinking that this
-# is a function file:
+total = str2num(argv(){1});
 
-1;
+i = 0:total;
 
-function ret = leibniz (n)
-    ret = 0;
-    for i = 0:n
-        ret += power((-1), i) / ( 2 * i + 1);
-    endfor
-    ret = ret * 4;
-endfunction
+array = (-1).^i ./ (2 .* i + 1);
 
-disp(leibniz(1000000));
+pi = sum(array) * 4;
+
+disp(pi);

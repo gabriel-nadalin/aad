@@ -7,8 +7,8 @@ echo "" >> log
 
 for i in {100,500,1000,10000,100000,1000000,10000000}; do 
 	echo "$i elementos" >> log
-        /usr/bin/time -a -o log -f "%E" octave montecarlo_sequencial.m $i
-        /usr/bin/time -a -o log -f "%E" octave montecarlo_vetorial.m $i
-        /usr/bin/time -a -o log -f "%E" python3 montecarlo_multiprocessing.py $i
+        /usr/bin/time -a -o log -f "%E" octave leibniz_sequencial.m $i
+        /usr/bin/time -a -o log -f "%E" octave leibniz_vetorial.m $i
+        /usr/bin/time -a -o log -f "%E" python3 leibniz_numpy.py $i
         echo "" >> log
 done
