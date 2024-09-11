@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="pratica3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|pratica3|MM:inst3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_q771.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pratica3|bordas:inst17|estagio:inst1|sr:inst|lpm_shiftreg:LPM_SHIFTREG_component|altshift_taps:dffs_rtl_0" CBX_FILE_NAME="shift_taps_s4m.tdf"/>
+	</PROJECT>
+	<PROJECT NAME="lab3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab3|MM:inst3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_q771.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab3|bordas:inst17|estagio:inst1|sr:inst|lpm_shiftreg:LPM_SHIFTREG_component|altshift_taps:dffs_rtl_0" CBX_FILE_NAME="shift_taps_s4m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
