@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Sep 11 01:41:02 2024
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : lab3
+Top-level Entity Name : lab3
+Family : Cyclone II
+Total logic elements : 155
+    Total combinational functions : 120
+    Dedicated logic registers : 78
+Total registers : 78
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 36,981
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

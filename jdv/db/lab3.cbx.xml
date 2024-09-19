@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab3|MM:inst3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_q771.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab3|estagio:inst6|sr:inst|lpm_shiftreg:LPM_SHIFTREG_component|altshift_taps:dffs_rtl_0" CBX_FILE_NAME="shift_taps_q1m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab3|sr4096:inst9|lpm_shiftreg:LPM_SHIFTREG_component|altshift_taps:dffs_rtl_0" CBX_FILE_NAME="shift_taps_35m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
